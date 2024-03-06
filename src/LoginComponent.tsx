@@ -12,6 +12,7 @@ import {
 } from "antd";
 import { useNavigate } from "react-router-dom";
 
+import './styles.css';
 
 const { Title } = Typography;
 const API_URL = process.env.REACT_APP_API_URL
@@ -28,7 +29,7 @@ export interface ILoginForm {
   const CardTitle = (
     
     <Title level={2} className="title" >
-      Sign in for usage
+      Sign in to your account!
     </Title>
     
   );
