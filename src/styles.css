@@ -1,0 +1,23 @@
+.layout {
+    background: radial-gradient(50% 50% at 50% 50%, #bea9c1 0%, #310438 100%);
+    background-size: "cover";
+  }
+  .container {
+    max-width: 408px;
+    margin: auto;
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the shadow */
+  }
+  
+  .container:hover {
+    box-shadow: 0 0 15px 5px rgba(0,0,0, 1); /* Glowing effect */
+  }
+  
+  .title {
+    text-align: center;
+    color: #a93c3c;
+    font-size: 30px;
+    letter-spacing: -0.04em;
+    margin-top: 10px;
+  }
+  
+  
