@@ -1,6 +1,10 @@
-import TitleComponent from '/Users/mahesh/developer/FYP/fe_test/src/TitleComponent.tsx'
-import SearchComponent from '/Users/mahesh/developer/FYP/fe_test/src/SearchComponent.tsx'
-import LoginComponent from '/Users/mahesh/developer/FYP/fe_test/src/LoginComponent.tsx'
+// import TitleComponent from '/Users/mahesh/developer/FYP/fe_test/src/TitleComponent.tsx'
+// import SearchComponent from '/Users/mahesh/developer/FYP/fe_test/src/SearchComponent.tsx'
+// import LoginComponent from '/Users/mahesh/developer/FYP/fe_test/src/LoginComponent.tsx'
+
+import TitleComponent from './TitleComponent.tsx'
+import SearchComponent from './SearchComponent.tsx'
+import LoginComponent from './LoginComponent.tsx'
 
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
